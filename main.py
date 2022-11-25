@@ -15,15 +15,12 @@ class tokeninfo():
         self.root.resizable(False, False)
         self.root.iconbitmap("icon.ico")
         self.root.configure(bg="#856ff8")
-        #make ip text box
         self.token = customtkinter.CTkEntry(self.root)
         self.token.pack()
-        #make button
         self.button = customtkinter.CTkButton(self.root, text="Enter", command=self.tokens)
         self.button.pack()
         self.root.mainloop()
         self.root.destroy()
-        #grab ip info
     def tokens(self):
         self.root = tkinter.Tk()
         self.root.title("Token Info")
@@ -31,7 +28,6 @@ class tokeninfo():
         self.root.resizable(False, False)
         self.root.iconbitmap("icon.ico")
         self.root.configure(bg="#856ff8")
-        #make ip text box
         self.head = {'Authorization': str(self.token)}
         self.user = requests.get('https://discord.com/api/v9/users/@me', headers=self.head)
         self.user = self.user.json()
