@@ -12,8 +12,7 @@
   - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
-- [Contacts](#contacts)
+
 
 ## Description
 
@@ -50,11 +49,3 @@ python main.py
 ## License
 
 <a href="https://choosealicense.com/licenses/apache-2.0/"><img src="https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/apache.svg" height=40 />Apache License 2.0</a>
-
-## Acknowledgements
-
-Who helped you make this project a reality? Friends? Family? Contributors? Instructors?
-
-## Contacts
-
-<a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>  <a href="mailto:"><img src=https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/email_me_button_icon_151852.svg /></a>
